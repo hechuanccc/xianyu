@@ -31,3 +31,13 @@ git命令
  2) 绿颜色代表 修改已经到了 暂存区(stage)
 
 
+
+3 git branch 查看仓库有哪些分支
+
+
+4 git remote -v 查看本地仓库 连接了 哪些远程的公司的代码仓库
+
+
+5 git remote add origin https://xxxxx.git 本地init过后的仓库 连接到远程仓库
+
+
