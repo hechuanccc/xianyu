@@ -1,0 +1,33 @@
+linux命令
+
+1 pwd 查看当前光标所在的目录路径
+
+2 ls 查看当前光标目录下面有哪些东西
+
+3 clear
+
+4 mkdir 在当前光标目录下新建一个文件夹. rm -rf xxx文件夹
+
+5 touch fileName
+
+6 cd 进入某文件夹
+
+7 cd .. 回退
+
+
+
+
+
+git命令
+
+1 git init 把本地的当前光标下面的文件夹 初始化为一个git 仓库
+
+2 git status 查看当前git 仓库的状态
+
+ 1) 红色代表  当前修改还在 工作区
+
+ 		git add xxx || git add .
+
+ 2) 绿颜色代表 修改已经到了 暂存区(stage)
+
+

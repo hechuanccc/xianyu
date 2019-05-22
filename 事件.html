@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<style>
+	div {
+		width: 200px;
+		height: 200px;
+		background: red;
+	}
+</style>
+
+
+
+<script>
+	
+	// onclick onchange onkeyup onkeydown onload onmouseover/onmouseenter onmouseout/onmouseleave
+
+
+	window.onload = function () {
+
+
+		var oDiv = document.getElementsByTagName('div')[0]
+
+		oDiv.onclick = function () {
+			alert(1)
+
+			// 充值 
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// oDiv.onclick = function () {
+		// 	alert(2)
+		// }
+
+		oDiv.addEventListener('click', function (e) {
+
+			alert(2)
+		}, false)
+
+
+		oDiv.addEventListener('mouseenter', function (e) {
+
+			alert('mouseenter')
+		}, false)
+
+
+		oDiv.addEventListener('mouseleave', function (e) {
+
+			alert('mouseleave')
+		}, false)
+
+	}
+
+</script>
+<body>
+	<div aaa='1'></div>
+</body>
+</html>
